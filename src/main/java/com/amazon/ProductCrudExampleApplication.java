@@ -22,11 +22,11 @@ public class ProductCrudExampleApplication {
 
 		productService.displayAllProducts();*/
 
-		try {
+		/*try {
 			productService.updateProduct(113L);
 		}catch(Exception e){
 			e.printStackTrace();
-		}
+		}*/
 
 
 

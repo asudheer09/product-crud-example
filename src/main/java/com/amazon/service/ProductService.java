@@ -23,9 +23,10 @@ public class ProductService {
         repository.deleteById(productId);
     }
 
-    public void displayAllProducts(){
+    public List<Product> displayAllProducts(){
         List<Product> productList=repository.findAll();
         productList.forEach(System.out::println);
+        return productList;
     }
 
     public void updateProduct(Long productId) throws Exception{
